@@ -25,22 +25,11 @@ header {
 
 }
 
-.container .jumbo-block {
-    width: 650px;
-    height: 350px;
-    background-color: rgb(204, 166, 240);
-    border-radius: 5px;
-}
-
 header ul {
     display: flex;
     justify-content: center;
     list-style: none;
     gap: 1rem;
-}
-
-header span {
-    display: inline-block;
 }
 
 ul li a {
@@ -58,8 +47,38 @@ ul li a {
     font-size: 13px;
 }
 
-header ul{
-    padding: 0.4rem;
+.container .jumbo-block {
+    width: 650px;
+    /* height: 350px; */
+    color: white;
+    text-align: center;
+    padding: 4rem 1.5rem;
+}
+.jumbo-block h1{
+    font-size: 3rem;
+}
+
+.jumbo-block p {
+    margin-top: 1.5rem;
+    line-height: 1.6rem;
+}
+
+.btn-size {
+    padding: 0.8em 1.5em;
+    border-radius: 20px;
+    border: none;
+    margin-top: 1.1rem;
+}
+
+.mac {
+    background-color: white;
+    color: black;
+    margin-right: 0.8rem;
+}
+
+.open-browser {
+    background-color: black;
+    color: white;
 }
 
 /***************** STRUTTURA MAIN ********************/
