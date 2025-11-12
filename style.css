@@ -52,15 +52,17 @@ ul li a {
     /* height: 350px; */
     color: white;
     text-align: center;
-    padding: 4rem 1.5rem;
+    padding: 4rem 6rem;
 }
-.jumbo-block h1{
-    font-size: 3rem;
+
+.jumbo-block h1 {
+    font-size: 2.6rem;
 }
 
 .jumbo-block p {
     margin-top: 1.5rem;
-    line-height: 1.6rem;
+    line-height: 1.5rem;
+    font-size: 0.8rem;
 }
 
 .btn-size {
@@ -96,28 +98,38 @@ main {
     justify-content: center;
 }
 
-/* .border {
-    border: 2px dashed black;
-} */
 
-
-
-.bg-white {
-    background-color: white;
+.padd {
     padding: 2.5rem 0;
+    gap: 5rem;
 }
 
 
 .big-block {
     width: 550px;
-    height: 400px;
-    background-color: rgb(25, 165, 224);
+    /* height: 400px; */
+}
+
+.big-block img {
+    width: 100%;
+    vertical-align: top;
 }
 
 .small-block {
     width: 350px;
-    height: 400px;
-    background-color: pink;
+    /* height: 400px; */
+    text-align: left;
+    padding: 0 1.8rem;
+    padding-top: 1.45rem;
+}
+
+.small-block h2 {
+    font-size: 2.5rem;
+}
+
+.small-block p {
+    line-height: 1.6rem;
+    padding-top: 1.5rem;
 }
 
 .bg-grey {
