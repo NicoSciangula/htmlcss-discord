@@ -133,8 +133,10 @@ main {
 }
 
 .bg-grey {
-    background-color: rgb(189, 186, 186);
+    background-color: #f6f6f6;
     padding: 2.5rem;
+    background-image: url(./img/wave.svg);
+    background-size: contain;
 }
 
 .bigger-block {
